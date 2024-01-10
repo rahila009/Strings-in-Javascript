@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Strings in Javascript   
+//     WE CAN WRITE string in both single and double codes "" '' like this
+//   // most modern styntax
+//    const myname="rahila"
+//    const fathername="rahim"
+//    console.log(this is my name, ${myname} and this fathername ${fathername} )
+
+   let myname = "rahila";
+let fathername = "rahim";
+
+console.log(`This is my name ${myname} and my father's name is ${fathername}`);
+const gameName = new String("rahi-la")
+console.log(gameName)
+console.log(gameName.toUpperCase())
+console.log(gameName.charAt('2'))
+console.log(gameName.indexOf('l'))
+const newString= gameName.substring(2)
+console.log(newString)
+const anotherString = gameName.slice(-8,4) //slice mai hum negative value dekh sakte hai
+console.log(anotherString);
+
+ const newStringone= "  rahilahuudg  "
+ console.log(newStringone.trim()) //starting or end spaces ko hata dehta hai trim
+let myString = "   Hello, World!   ";
+let trimmedString = myString.trim();
+
+// console.log(trimmedString);  // Output: "Hello, World!"
+// key point
+// String Trim:
+// The trim method is used on strings.
+// It removes any spaces at the beginning and end of the string.
+// It does not change the original string; instead, it returns a new string with the whitespaces removed.
+
+
+
+// Certainly! In JavaScript, the substring method is used to extract a portion of a string. Here's a simple explanation:
+
+// String Substring:
+// The substring method is used on strings.
+// It takes two parameters: the starting index and the ending index.
+// It returns a new string that includes the characters from the starting index up to, but not including, the ending index.
+// // If the ending index is not provided, it goes until the end of the strin
+
+const url = "httpswww.upwork.com/nx/find-work/best-matches";
+console.log(url.replace('upwork', 'linkedin'));
+console.log(url.includes( 'upwork'));
+
+
+</script> 
+</html>
